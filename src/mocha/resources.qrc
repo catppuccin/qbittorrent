@@ -1,0 +1,18 @@
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource>
+		<file>stylesheet.qss</file>
+		<file>config.json</file>
+
+    <file>../icons/dark/checkbox_checked.svg</file>
+    <file>../icons/dark/checkbox_unchecked.svg</file>
+    <file>../icons/dark/checkbox_indeterminate.svg</file>
+    <file>../icons/dark/arrow_down.svg</file>
+    <file>../icons/dark/arrow_down_disabled.svg</file>
+    <file>../icons/dark/chevron_up.svg</file>
+    <file>../icons/dark/chevron_up_disabled.svg</file>
+    <file>../icons/dark/chevron_down.svg</file>
+    <file>../icons/dark/chevron_down_disabled.svg</file>
+    <file>../icons/dark/branch_open.svg</file>
+    <file>../icons/dark/branch_closed.svg</file>
+  </qresource>
+</RCC>
