@@ -26,7 +26,7 @@
       "Palette.HighlightedTextDisabled": "#8087a2",
       "Palette.ButtonTextDisabled": "#8087a2",
 
-      "Log.Time": "#b8c0e0",
+      "Log.TimeStamp": "#b8c0e0",
       "Log.Normal": "#cad3f5",
       "Log.Info": "#8aadf4",
       "Log.Warning": "#f5a97f",
@@ -36,8 +36,8 @@
       "TransferList.Downloading": "#a6da95",
       "TransferList.StalledDownloading": "#8087a2",
       "TransferList.DownloadingMetadata": "#a6da95",
+      "TransferList.ForcedDownloadingMetadata": "#91d7e3",
       "TransferList.ForcedDownloading": "#a6da95",
-      "TransferList.Allocating": "#91d7e3",
       "TransferList.Uploading": "#8aadf4",
       "TransferList.StalledUploading": "#8087a2",
       "TransferList.ForcedUploading": "#8aadf4",
