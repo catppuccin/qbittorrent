@@ -48,11 +48,12 @@ QMenuBar::item:pressed {
 QMenu {
   border: 1px solid #414559;
   border-radius: 2px;
-  padding: 3px 0;
+  padding: 4px;
 }
 
 QMenu::item {
-  padding: 4px 12px 4px 8px;
+  padding: 4px 22px 4px 8px;
+  border-radius: 4px;
 }
 
 QMenu::item:selected {
@@ -67,6 +68,23 @@ QMenu::separator {
 
 QMenu::icon {
   padding: 0 5px;
+}
+
+QMenu::indicator {
+  height: 16px;
+  width: 16px;
+  left: 5px;
+}
+
+QMenu::right-arrow {
+  width: 18px;
+  height: 18px;
+  padding-right: 5px;
+  image: url(':/uitheme/../icons/dark/branch_closed.svg');
+}
+
+QMenu::indicator:checked {
+  image: url(':/uitheme/../icons/dark/check.svg');
 }
 
 /* Status bar */
@@ -207,13 +225,13 @@ QHeaderView {
 QHeaderView::up-arrow {
   width: 18px;
   height: 18px;
-  image: url(:/uitheme/../icons/dark/chevron_up.svg);
+  image: url(':/uitheme/../icons/dark/chevron_up.svg');
 }
 
 QHeaderView::down-arrow {
   width: 18px;
   height: 18px;
-  image: url(:/uitheme/../icons/dark/chevron_down.svg);
+  image: url(':/uitheme/../icons/dark/chevron_down.svg');
 }
 
 QHeaderView::section {
@@ -254,11 +272,11 @@ QTreeView QScrollBar:horizontal, QTreeView QScrollBar:vertical {
 }
 
 QTreeView::branch:has-children:open {
-  image: url(':uitheme/../icons/dark/branch_open.svg');
+  image: url(':/uitheme/../icons/dark/branch_open.svg');
 }
 
 QTreeView::branch:has-children:closed {
-  image: url(':uitheme/../icons/dark/branch_closed.svg');
+  image: url(':/uitheme/../icons/dark/branch_closed.svg');
 }
 
 /* ScrollBars */
@@ -441,13 +459,13 @@ QComboBox::drop-down {
 }
 
 QComboBox::down-arrow {
-  image: url(':uitheme/../icons/dark/arrow_down.svg');
+  image: url(':/uitheme/../icons/dark/arrow_down.svg');
   width: 20px;
   height: 20px;
 }
 
 QComboBox::down-arrow:disabled {
-  image: url(':uitheme/../icons/dark/arrow_down_disabled.svg');
+  image: url(':/uitheme/../icons/dark/arrow_down_disabled.svg');
 }
 
 QComboBox QAbstractItemView {
@@ -484,11 +502,11 @@ QAbstractSpinBox::up-button {
   border-radius: 4px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  image: url(':uitheme/../icons/dark/chevron_up.svg');
+  image: url(':/uitheme/../icons/dark/chevron_up.svg');
 }
 
 QAbstractSpinBox::up-button:disabled {
-  image: url(':uitheme/../icons/dark/chevron_up_disabled.svg');
+  image: url(':/uitheme/../icons/dark/chevron_up_disabled.svg');
 }
 
 QAbstractSpinBox::up-button:hover {
@@ -503,10 +521,10 @@ QAbstractSpinBox::down-button {
   border-radius: 4px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  image: url(':uitheme/../icons/dark/chevron_down.svg');
+  image: url(':/uitheme/../icons/dark/chevron_down.svg');
 }
 QAbstractSpinBox::down-button:disabled {
-  image: url(':uitheme/../icons/dark/chevron_down_disabled.svg');
+  image: url(':/uitheme/../icons/dark/chevron_down_disabled.svg');
 }
 
 QAbstractSpinBox::down-button:hover {
@@ -524,23 +542,23 @@ QCheckBox::indicator, QGroupBox::indicator, QTreeView::indicator {
 }
 
 QCheckBox::indicator:checked, QGroupBox::indicator:checked, QTreeView::indicator:checked {
-  image: url(':uitheme/../icons/dark/checkbox_checked.svg');
+  image: url(':/uitheme/../icons/dark/checkbox_checked.svg');
 }
 
 QCheckBox::indicator:unchecked, QGroupBox::indicator:unchecked, QTreeView::indicator:unchecked {
-  image: url(':uitheme/../icons/dark/checkbox_unchecked.svg');
+  image: url(':/uitheme/../icons/dark/checkbox_unchecked.svg');
 }
 
 QCheckBox::indicator:indeterminate, QGroupBox::indicator:indeterminate, QTreeView::indicator:indeterminate {
-  image: url(':uitheme/../icons/dark/checkbox_indeterminate.svg');
+  image: url(':/uitheme/../icons/dark/checkbox_indeterminate.svg');
 }
 
 QCheckBox::branch:has-children:open {
-  image: url(':uitheme/../icons/dark/branch_open.svg');
+  image: url(':/uitheme/../icons/dark/branch_open.svg');
 }
 
 QCheckBox::branch:has-children:closed {
-  image: url(':uitheme/../icons/dark/branch_closed.svg');
+  image: url(':/uitheme/../icons/dark/branch_closed.svg');
 }
 
 /* Sliders */
