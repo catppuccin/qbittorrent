@@ -260,11 +260,13 @@ QTreeView {
 }
 
 QTreeView::item {
-  padding: 2px;
+  background-color: #181825;
+  padding: 2px 0;
 }
 
 QTreeView::item:hover, QTreeView::item:selected {
   background-color: #313244;
+  padding: 2px;
 }
 
 QTreeView QScrollBar:horizontal, QTreeView QScrollBar:vertical {
