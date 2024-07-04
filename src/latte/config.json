@@ -26,6 +26,9 @@
       "Palette.HighlightedTextDisabled": "#8c8fa1",
       "Palette.ButtonTextDisabled": "#8c8fa1",
 
+      "RSS.ReadArticle": "#4c4f69",
+      "RSS.UnreadArticle": "#1e66f5",
+
       "Log.TimeStamp": "#5c5f77",
       "Log.Normal": "#4c4f69",
       "Log.Info": "#1e66f5",
