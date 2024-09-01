@@ -38,7 +38,7 @@
 
 1. Download the theme files (`.qbtheme`) from the latest [GitHub release](https://github.com/catppuccin/qbittorrent/releases/latest).
 2. Open qBittorrent and go to **Tools** > **Preferences** > **Behaviour**.
-3. Tick the **use custom UI theme** checkbox and select your chosen `.qbtheme` theme file.
+3. Tick the **"use custom UI theme"** checkbox and select your chosen `.qbtheme` theme file.
 4. Click **Apply** and restart qBittorrent for the changes to take effect.
 
 ## 💝 Thanks to
