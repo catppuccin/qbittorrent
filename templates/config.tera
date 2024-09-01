@@ -1,0 +1,67 @@
+---
+whiskers:
+  version: 2.4.0
+  matrix:
+    - flavor
+  filename: "src/catppuccin-{{ flavor.identifier }}/config.json"
+  hex_format: "#{{r}}{{g}}{{b}}"
+---
+{
+  "colors": {
+      "Palette.Window": "{{ base.hex }}",
+      "Palette.WindowText": "{{ text.hex }}",
+      "Palette.Base": "{{ crust.hex }}",
+      "Palette.AlternateBase": "{{ mantle.hex }}",
+      "Palette.Text": "{{ text.hex }}",
+      "Palette.ToolTipBase": "{{ surface0.hex }}",
+      "Palette.ToolTipText": "{{ text.hex }}",
+      "Palette.BrightText": "{{ mauve.hex }}",
+      "Palette.Highlight": "{{ blue.hex }}",
+      "Palette.HighlightedText": "{{ crust.hex }}",
+      "Palette.Button": "{{ surface0.hex }}",
+      "Palette.ButtonText": "{{ text.hex }}",
+      "Palette.Link": "{{ blue.hex }}",
+      "Palette.LinkVisited": "{{ lavender.hex }}",
+      "Palette.Light": "{{ surface2.hex }}",
+      "Palette.Midlight": "{{ surface1.hex }}",
+      "Palette.Mid": "{{ base.hex }}",
+      "Palette.Dark": "{{ mantle.hex }}",
+      "Palette.Shadow": "{{ crust.hex }}",
+      "Palette.PlaceholderText": "{{ overlay2.hex }}",
+      "Palette.WindowTextDisabled": "{{ overlay1.hex }}",
+      "Palette.TextDisabled": "{{ overlay1.hex }}",
+      "Palette.ToolTipTextDisabled": "{{ overlay1.hex }}",
+      "Palette.BrightTextDisabled": "{{ overlay1.hex }}",
+      "Palette.HighlightedTextDisabled": "{{ overlay1.hex }}",
+      "Palette.ButtonTextDisabled": "{{ overlay1.hex }}",
+
+      "RSS.ReadArticle": "{{ overlay2.hex }}",
+      "RSS.UnreadArticle": "{{ blue.hex }}",
+
+      "Log.TimeStamp": "{{ subtext1.hex }}",
+      "Log.Normal": "{{ text.hex }}",
+      "Log.Info": "{{ blue.hex }}",
+      "Log.Warning": "{{ peach.hex }}",
+      "Log.Critical": "{{ red.hex }}",
+      "Log.BannedPeer": "{{ red.hex }}",
+
+      "TransferList.Downloading": "{{ green.hex }}",
+      "TransferList.StalledDownloading": "{{ overlay1.hex }}",
+      "TransferList.DownloadingMetadata": "{{ green.hex }}",
+      "TransferList.ForcedDownloadingMetadata": "{{ sky.hex }}",
+      "TransferList.ForcedDownloading": "{{ green.hex }}",
+      "TransferList.Uploading": "{{ blue.hex }}",
+      "TransferList.StalledUploading": "{{ overlay1.hex }}",
+      "TransferList.ForcedUploading": "{{ blue.hex }}",
+      "TransferList.QueuedDownloading": "{{ teal.hex }}",
+      "TransferList.QueuedUploading": "{{ teal.hex }}",
+      "TransferList.CheckingDownloading": "{{ teal.hex }}",
+      "TransferList.CheckingUploading": "{{ teal.hex }}",
+      "TransferList.CheckingResumeData": "{{ teal.hex }}",
+      "TransferList.PausedDownloading": "{{ peach.hex }}",
+      "TransferList.PausedUploading": "{{ peach.hex }}",
+      "TransferList.Moving": "{{ teal.hex }}",
+      "TransferList.MissingFiles": "{{ red.hex }}",
+      "TransferList.Error": "{{ red.hex }}"
+  }
+}
