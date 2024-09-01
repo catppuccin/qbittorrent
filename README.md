@@ -36,10 +36,10 @@
 
 ## Usage
 
-1. Download the theme files (.qbtheme) from the GitHub [release](https://github.com/catppuccin/qbittorrent/releases/latest) page
-2. Open qBittorrent and go to Tools > Options and then enable "use custom UI theme"
-3. Browse for the .qbtheme files and select one of the flavours
-4. Restart qBittorrent for the changes to take effect
+1. Download the theme files (`.qbtheme`) from the latest [GitHub release](https://github.com/catppuccin/qbittorrent/releases/latest).
+2. Open qBittorrent and go to **Tools** > **Preferences** > **Behaviour**.
+3. Tick the **"use custom UI theme"** checkbox and select your chosen `.qbtheme` theme file.
+4. Click **Apply** and restart qBittorrent for the changes to take effect.
 
 ## 💝 Thanks to
 

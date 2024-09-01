@@ -1,0 +1,26 @@
+---
+whiskers:
+  version: 2.4.0
+  matrix:
+    - flavor
+  filename: "src/catppuccin-{{ flavor.identifier }}/resources.qrc"
+---
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource>
+		<file>stylesheet.qss</file>
+		<file>config.json</file>
+
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/checkbox_checked.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/checkbox_unchecked.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/checkbox_indeterminate.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/check.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/arrow_down.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/arrow_down_disabled.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/chevron_up.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/chevron_up_disabled.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/chevron_down.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/chevron_down_disabled.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/branch_open.svg</file>
+    <file>../icons/{{ if(cond=flavor.dark, t="dark", f="light") }}/branch_closed.svg</file>
+  </qresource>
+</RCC>
