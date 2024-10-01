@@ -41,6 +41,36 @@
 3. Tick the **"use custom UI theme"** checkbox and select your chosen `.qbtheme` theme file.
 4. Click **Apply** and restart qBittorrent for the changes to take effect.
 
+## Usage WebUI
+
+The Catppuccin theme for the WebUI is currently only available via [theme.park](https://docs.theme-park.dev/themes/qbittorrent/) as a [community theme](https://docs.theme-park.dev/community-themes/catppuccin/).
+
+See [docs.theme-park.dev/setup](https://docs.theme-park.dev/setup/) for all available installation methods.
+
+For example, if you are using the linuxserver/qbittorrent Docker container, 
+you can install the Catppuccin theme by configuring the following environment variables:
+
+```yaml
+services:
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent:5.0.0
+    environment:
+      - DOCKER_MODS=ghcr.io/themepark-dev/theme.park:qbittorrent
+      - QBITTORRENT_VERSION=5.0.0
+      - TP_COMMUNITY_THEME=true
+      - TP_THEME=catppuccin-{flavor}
+```
+
+Replace `{flavor}` with one of the available options: *latte*, *frappe*, *macchiato*, or *mocha*.
+
+Alternatively, the Catppuccin theme can also installed via the browser extension [Stylus](https://add0n.com/stylus.html).
+Create a new style in Stylus and add the following code:
+```css
+@import "https://theme-park.dev/css/base/qbittorrent/catppuccin-{flavor}.css";
+```
+
+Again, replace `{flavor}` with one of the available options: *latte*, *frappe*, *macchiato*, or *mocha*.
+
 ## 💝 Thanks to
 
 - [Xurdejl](https://github.com/Xurdejl)
