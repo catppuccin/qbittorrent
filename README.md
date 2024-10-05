@@ -36,10 +36,47 @@
 
 ## Usage
 
+### Client
+
 1. Download the theme files (`.qbtheme`) from the latest [GitHub release](https://github.com/catppuccin/qbittorrent/releases/latest).
 2. Open qBittorrent and go to **Tools** > **Preferences** > **Behaviour**.
 3. Tick the **"use custom UI theme"** checkbox and select your chosen `.qbtheme` theme file.
 4. Click **Apply** and restart qBittorrent for the changes to take effect.
+
+### WebUI
+
+The Catppuccin theme for the WebUI is only available via
+[theme.park](https://docs.theme-park.dev/themes/qbittorrent/) as a
+[community theme](https://docs.theme-park.dev/community-themes/catppuccin/).
+There are currently no plans to add custom support for it. 
+
+For all available installation methods, see
+[docs.theme-park.dev/setup](https://docs.theme-park.dev/setup/).
+
+For example, if you are using the `linuxserver/qbittorrent` Docker image, you
+can install the Catppuccin theme by configuring the following environment
+variables:
+
+```yaml
+services:
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent:5.0.0
+    environment:
+      - DOCKER_MODS=ghcr.io/themepark-dev/theme.park:qbittorrent
+      - QBITTORRENT_VERSION=5.0.0
+      - TP_COMMUNITY_THEME=true
+      - TP_THEME=catppuccin-{flavor}
+```
+
+Alternatively, the theme can also be installed via the browser extension
+[Stylus](https://add0n.com/stylus.html). Create a new style in Stylus and add
+the following code:
+
+```css
+@import "https://theme-park.dev/css/base/qbittorrent/catppuccin-{flavor}.css";
+```
+
+Where `{flavor}` is either: **latte**, **frappe**, **macchiato**, or **mocha**.
 
 ## 💝 Thanks to
 
