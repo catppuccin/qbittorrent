@@ -50,6 +50,9 @@ The Catppuccin theme for the WebUI is only available via
 [community theme](https://docs.theme-park.dev/community-themes/catppuccin/).
 There are currently no plans to add custom support for it. 
 
+For all available installation methods, see
+[docs.theme-park.dev/setup](https://docs.theme-park.dev/setup/).
+
 For example, if you are using the `linuxserver/qbittorrent` Docker image, you
 can install the Catppuccin theme by configuring the following environment
 variables:
@@ -74,9 +77,6 @@ the following code:
 ```
 
 Where `{flavor}` is either: **latte**, **frappe**, **macchiato**, or **mocha**.
-
-For all available installation methods, see
-[docs.theme-park.dev/setup](https://docs.theme-park.dev/setup/).
 
 ## 💝 Thanks to
 
