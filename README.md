@@ -36,19 +36,23 @@
 
 ## Usage
 
+### Client
+
 1. Download the theme files (`.qbtheme`) from the latest [GitHub release](https://github.com/catppuccin/qbittorrent/releases/latest).
 2. Open qBittorrent and go to **Tools** > **Preferences** > **Behaviour**.
 3. Tick the **"use custom UI theme"** checkbox and select your chosen `.qbtheme` theme file.
 4. Click **Apply** and restart qBittorrent for the changes to take effect.
 
-## Usage WebUI
+### WebUI
 
-The Catppuccin theme for the WebUI is currently only available via [theme.park](https://docs.theme-park.dev/themes/qbittorrent/) as a [community theme](https://docs.theme-park.dev/community-themes/catppuccin/).
+The Catppuccin theme for the WebUI is only available via
+[theme.park](https://docs.theme-park.dev/themes/qbittorrent/) as a
+[community theme](https://docs.theme-park.dev/community-themes/catppuccin/).
+There are currently no plans to add custom support for it. 
 
-See [docs.theme-park.dev/setup](https://docs.theme-park.dev/setup/) for all available installation methods.
-
-For example, if you are using the linuxserver/qbittorrent Docker container, 
-you can install the Catppuccin theme by configuring the following environment variables:
+For example, if you are using the `linuxserver/qbittorrent` Docker image, you
+can install the Catppuccin theme by configuring the following environment
+variables:
 
 ```yaml
 services:
@@ -61,15 +65,18 @@ services:
       - TP_THEME=catppuccin-{flavor}
 ```
 
-Replace `{flavor}` with one of the available options: *latte*, *frappe*, *macchiato*, or *mocha*.
+Alternatively, the theme can also be installed via the browser extension
+[Stylus](https://add0n.com/stylus.html). Create a new style in Stylus and add
+the following code:
 
-Alternatively, the Catppuccin theme can also installed via the browser extension [Stylus](https://add0n.com/stylus.html).
-Create a new style in Stylus and add the following code:
 ```css
 @import "https://theme-park.dev/css/base/qbittorrent/catppuccin-{flavor}.css";
 ```
 
-Again, replace `{flavor}` with one of the available options: *latte*, *frappe*, *macchiato*, or *mocha*.
+Where `{flavor}` is either: **latte**, **frappe**, **macchiato**, or **mocha**.
+
+For all available installation methods, see
+[docs.theme-park.dev/setup](https://docs.theme-park.dev/setup/).
 
 ## 💝 Thanks to
 
