@@ -11,7 +11,7 @@
 QWidget {
   background-color: #292c3c;
   color: #c6d0f5;
-  selection-background-color: #44495d;
+  selection-background-color: #626880;
   selection-color: #c6d0f5;
 }
 

@@ -19,7 +19,7 @@ whiskers:
 QWidget {
   background-color: {{ mantle.hex }};
   color: {{ text.hex }};
-  selection-background-color: {{ surface2 | mix(color=base, amount=0.4) | get(key="hex")}};
+  selection-background-color: {{ surface2 | mod(opacity=0.3) | get(key="hex")}};
   selection-color: {{ text.hex }};
 }
 
