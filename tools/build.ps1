@@ -1,9 +1,10 @@
 $themes = @("latte", "frappe", "macchiato", "mocha")
 
+New-Item -Name "dist" -ItemType "directory" -Force >$null
 foreach ($theme in $themes) {
   $themePath = "catppuccin-$theme.qbtheme"
-  $themeSrc = "../src/$theme"
-  if (!(Test-Path "./rcc.exe")) {
+  $themeSrc = "./src/catppuccin-$theme"
+  if (!(Test-Path "./tools/rcc.exe")) {
     Write-Host "rcc not found" -ForegroundColor Red
     break
   }
@@ -12,7 +13,7 @@ foreach ($theme in $themes) {
     continue
   }
   else {
-    & "./rcc.exe" "$themeSrc/resources.qrc" -o "../dist/$themePath" -binary
+    & "./tools/rcc.exe" "$themeSrc/resources.qrc" -o "./dist/$themePath" -binary
     Write-Host "Compiled $themePath."
   }
 }
