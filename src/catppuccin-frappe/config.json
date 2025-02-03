@@ -43,7 +43,7 @@
       "TransferList.ForcedDownloadingMetadata": "#99d1db",
       "TransferList.ForcedDownloading": "#a6d189",
       "TransferList.Uploading": "#8caaee",
-      "TransferList.StalledUploading": "#838ba7",
+      "TransferList.StalledUploading": "#8caaee",
       "TransferList.ForcedUploading": "#8caaee",
       "TransferList.QueuedDownloading": "#81c8be",
       "TransferList.QueuedUploading": "#81c8be",

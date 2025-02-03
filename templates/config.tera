@@ -51,7 +51,7 @@ whiskers:
       "TransferList.ForcedDownloadingMetadata": "{{ sky.hex }}",
       "TransferList.ForcedDownloading": "{{ green.hex }}",
       "TransferList.Uploading": "{{ blue.hex }}",
-      "TransferList.StalledUploading": "{{ overlay1.hex }}",
+      "TransferList.StalledUploading": "{{ blue.hex }}",
       "TransferList.ForcedUploading": "{{ blue.hex }}",
       "TransferList.QueuedDownloading": "{{ teal.hex }}",
       "TransferList.QueuedUploading": "{{ teal.hex }}",
