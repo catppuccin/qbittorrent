@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
 rcc_version=$(rcc --version)
 rcc_major=$(echo "$rcc_version" | awk '{split($2, a, "."); print a[1]}')
 if [ "$rcc_major" -gt 5 ]; then
