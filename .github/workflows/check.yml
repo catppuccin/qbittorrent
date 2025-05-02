@@ -6,7 +6,7 @@ on:
 
 jobs:
   run:
-    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
+    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@feat/working-directory
     with:
       args: |
         templates/config.tera
