@@ -15,6 +15,7 @@ whiskers:
   Main Repo: https://github.com/catppuccin/
 */
 
+
 /* Global styles */
 QWidget {
   background-color: {{ mantle.hex }};
